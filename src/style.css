@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.section-center{
+    margin: 0 auto;
+    margin-top: 10rem;
+    background: #305e5f;
+
+    width: 450px;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.section-center h1{
+    margin-bottom: 10px;
+    color: #fff;
+
+}
+.form-component{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+input[type="text"]{
+    padding: 1rem;
+    border: transparent;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    font-size: 20px;
+    
+}
+.btn{
+    font-size: 20px;
+    padding: 1rem;
+    border: transparent;
+    background: rgb(79, 196, 79);
+    color: black;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+.singleitem{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    
+}
+.singleitem:hover{
+    border: 3px solid #fff;
+
+}
+.first{
+    display: flex;
+    justify-content: start; 
+}
+.first input{
+    padding: 10px;
+    border: transparent;
+    margin: 10px;
+}
+.first p{
+    margin: 10px;   
+    color: #fff;
+    font-size: 25px;
+    text-transform: capitalize;
+}
+.button{
+    border: transparent;
+    background: #df0606;
+    color: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 75px;
+    height: 30px;
+    font-size: 15px;
+    margin: 10px; 
+    border-radius: 5px;
+}
+@media  screen and( max-width:500px) {
+    
+}
+@media screen and (width:500px) {
+    .section-center{
+        width: 350px;
+
+    } 
+    input[type="text"]{
+        padding: 0.7rem;
+        border: transparent;
+        border-top-left-radius: 7px;
+        border-bottom-left-radius: 7px;
+        font-size: 15px;
+        
+    }
+    .btn{
+        font-size: 15px;
+        padding: 0.7rem;
+        border: transparent;
+        background: rgb(79, 196, 79);
+        color: black;
+        border-top-right-radius: 7px;
+        border-bottom-right-radius: 7px;
+    }
+    .button{
+        border: transparent;
+        background: #df0606;
+        color: #fff;
+        padding-left: 7px;
+        padding-right: 7px;
+        width: 55px;
+        height: 30px;
+        font-size: 15px;
+        margin: 10px; 
+        border-radius: 5px;
+    }
+    .singleitem:hover{
+        border: 1px solid #fff;
+    }
+    .first p{  
+        padding-top: 4px;
+        font-size: 20px;
+        
+    }
+    .singleitem{
+        margin-bottom: 0px;
+    }
+}
